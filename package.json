@@ -1,8 +1,8 @@
 {
-  "name": "memcached",
-  "version": "2.3.0",
-  "author": "Arnout Kazemier",
-  "description": "A fully featured Memcached API client, supporting both single and clustered Memcached servers through consistent hashing and failover/failure. Memcached is rewrite of nMemcached, which will be deprecated in the near future.",
+  "name": "@bilibili/memcached",
+  "version": "3.0.0",
+  "author": "viking",
+  "description": "fork the memcached and fix some issue",
   "main": "index",
   "keywords": [
     "InnoDB memcached API",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/3rd-Eden/node-memcached.git"
+    "url": "http://github.com/crazyhuoshan/node-memcached.git"
   },
   "dependencies": {
     "hashring": "3.2.x",
